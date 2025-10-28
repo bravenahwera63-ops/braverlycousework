@@ -1,0 +1,89 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.praise {
+  width: 100%;
+}
+.praise .dorah {
+  width: 80%;
+  margin: auto;
+}
+.praise .dorah .header {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.praise .dorah .header h1 {
+  font-size: 50px;
+  color: antiquewhite;
+  padding-top: 35px;
+  text-align: center;
+}
+.praise .dorah .header p {
+  color: rgb(24, 24, 211);
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 2.5;
+}
+.food {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.food .Nutrients {
+  flex: 1;
+  margin: 50px 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: lightcyan;
+  border-radius: 25px;
+  overflow: auto;
+}
+.food .Nutrients .footer1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(226, 205, 178);
+  padding: 15px;
+  border: 10px;
+}
+.food .Nutrients .footer2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(185, 218, 248);
+  padding: 15px;
+  border: 10px;
+}
+.food .Nutrients .footer3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(219, 185, 241);
+  padding: 15px;
+  border: 10px;
+}
+.food .Nutrients :hover {
+  font-weight: bolder;
+}
+.food .Nutrients img {
+  width: 100%;
+  height: 250px;
+  overflow: auto;
+}
+.food .Nutrients h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 10px;
+  color: black;
+}
+.food .Nutrients p {
+  font-size: 18px;
+  padding: 18px;
+  color: lightgreen;
+}
+@media screen and (max-width: 750px) {
+  .food {
+    flex-direction: column;
+  }
+}
